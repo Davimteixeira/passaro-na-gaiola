@@ -1,0 +1,18 @@
+<button (click)="magica()">vem pra cá</button>
+<div class="container">
+  <img src="../../assets/images/gaiola.png" [ngStyle]="{
+    'margin-left': marginLeft,
+    'backgroundImage': backImage,
+    'background-repeat': 'no-repeat',
+    'background-position': 'center'
+  }">
+  <img src="../../assets/images/passaro.png" [ngStyle]="{
+    'visibility': visibilityHidden
+  }">
+</div>
+<img src="../../assets/images/porta.png" [ngStyle]="{
+  'position':'absolute',
+  'top': portaTop,
+  'left': portaLeft,
+  'transform': portaRotate
+  }">
